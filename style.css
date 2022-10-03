@@ -1,0 +1,76 @@
+/* Ans 13. */
+.btn{
+    
+    width: 120px;
+    background-color: rgba(0, 183, 255, 0.936);
+    font-size: 12px;
+    color: white;
+    border: 1px solid rgba(0, 183, 255, 0.936);
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(15, 153, 208);
+}
+
+/* Ans 14. */
+.font{
+    font-family: "Audiowide", sans-serif;
+}
+
+/* Ans 15. */
+
+.increase{
+        height: 50px;
+        width: 50px;
+        background-color: green;
+        transition: width 4s;
+    
+}
+.increase:hover{
+
+        
+        width: 100px;
+        
+        
+}
+
+/* Ans 16. */
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+   
+}
+
+/* Ans 17. */
+body {
+    background-color: aqua;
+    color: black;
+  }
+
+  @media screen and (max-width: 990px) {
+    body {
+      background-color: blue;
+      color: white;
+    }
+  }
+
+/* Ans 18. */
+
+.code{
+    width: 100px;
+    height: 100px;
+    background-color:orange;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {background-color: white;}
+    to {background-color: green;}
+  }
+
+        
